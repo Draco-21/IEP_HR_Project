@@ -1,0 +1,34 @@
+.sidebar {
+    min-width: 200px;
+}
+.card {
+    border-radius: 12px;
+}
+.card-header {
+    font-weight: bold;
+    border-radius: 12px 12px 0 0 !important;
+}
+/* Custom Header Styling */
+.custom-header {
+    background-color: #004a7c; /* Change this hex code to your preferred Hideaway brand color */
+    padding: 10px 20px;
+}
+
+.custom-header .navbar-brand span {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.custom-header .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-header .nav-link:hover {
+    color: #ffc107 !important; /* Gold hover effect */
+}
+
+/* Ensure the body content doesn't hide behind the navbar if you make it fixed later */
+body {
+    padding-top: 0px;
+}
