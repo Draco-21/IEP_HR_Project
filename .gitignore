@@ -1,0 +1,10 @@
+# Ignore XAMPP/Local Configs
+/config/db_local.php
+.env
+
+# Ignore OS files
+Thumbs.db
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
