@@ -16,7 +16,7 @@
 <nav class="navbar navbar-expand-lg custom-header shadow-sm">
     <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="index.php">
-            <img src="assets/images/logo.jpeg" alt="Hideaway Holidays Logo" height="50" class="d-inline-block align-text-top">
+              <img src="/IEP_HR_Project/assets/images/logo.jpeg" alt="Hideaway Holidays Logo" height="50" class="d-inline-block align-text-top">
             <span class="ms-3 fw-bold text-white">Hideaway HRMS</span>
         </a>
 

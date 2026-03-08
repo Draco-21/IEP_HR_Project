@@ -1,7 +1,7 @@
 <?php
 session_start();
-include 'config/db.php';
-include 'templates/header.php';
+include '../config/db.php';
+include '../templates/header.php';
 
 // Security: Ensure only Employees can see this specific page
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'Employee') {
@@ -81,4 +81,4 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'Employee') {
     updateTime();
 </script>
 
-<?php include 'templates/footer.php'; ?>
+<?php include '../templates/footer.php'; ?>

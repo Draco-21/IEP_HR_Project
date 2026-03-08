@@ -1,7 +1,7 @@
 <?php
 session_start();
-include 'config/db.php';       // Points to /config/db.php
-include 'templates/header.php'; // Points to /templates/header.php
+include '../config/db.php';       // Points to /config/db.php
+include '../templates/header.php'; // Points to /templates/header.php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = $pdo->prepare("SELECT * FROM users WHERE username = ?");
@@ -33,4 +33,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 </div>
 
-<?php include 'templates/footer.php'; ?>
+<?php include '../templates/footer.php'; ?>

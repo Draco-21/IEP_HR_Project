@@ -2,11 +2,11 @@
 session_start();
 // If user is already logged in, send them straight to the dashboard
 if (isset($_SESSION['user_id'])) {
-    header("Location: dashboard.php");
+    header("Location: views/dashboard.php");
     exit;
 }
 
-include 'templates/header.php'; 
+include 'templates/header.php';
 ?>
 
 <div class="container text-center mt-5">
@@ -16,8 +16,8 @@ include 'templates/header.php';
         <hr class="my-4">
         <p>Please log in to manage your attendance, timesheets, and company news.</p>
         <div class="d-grid gap-2 d-md-block">
-            <a class="btn btn-primary btn-lg" href="login.php" role="button">Login</a>
-            <a class="btn btn-outline-secondary btn-lg" href="register.php" role="button">Register</a>
+            <a class="btn btn-primary btn-lg" href="views/login.php" role="button">Login</a>
+            <a class="btn btn-outline-secondary btn-lg" href="views/register.php" role="button">Register</a>
         </div>
     </div>
 </div>

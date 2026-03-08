@@ -6,7 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     exit;
 }
 
-include 'templates/header.php'; 
+include '../templates/header.php';
 ?>
 
 <nav class="navbar navbar-dark bg-dark mb-4">
@@ -72,4 +72,4 @@ include 'templates/header.php';
     </div>
 </div>
 
-<?php include 'templates/footer.php'; ?>
+<?php include '../templates/footer.php'; ?>
